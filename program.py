@@ -72,11 +72,3 @@ video_capture.release()
 cv2.destroyAllWindows()
 f.close()
 
-
-
-
-    
-# why to use students arr is so we can avoid marking attendance for same student multiple times with
-#students array what we do is after getting a face we see if its in db and in students arr if present
-# we remove that name in students arr and mark the attendance for him this helps us in marking him
-# attendance only once while taking multiple frames from video capture through camera
